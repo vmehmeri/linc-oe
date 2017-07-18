@@ -1,0 +1,20 @@
+/rel/linc/
+# sys.config.orig is version controlled; sys.config is installation specific.
+/rel/files/sys.config
+/apps/*/ebin/
+/apps/*/.eunit/
+/apps/*/doc/
+/apps/*/log/
+/ebin/
+/.eunit/
+/doc/
+/log/
+/deps/
+/scripts/log
+*.beam
+*.app
+*.o
+*.eqc
+*.plt
+erl_crash.dump
+*~
